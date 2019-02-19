@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia-lab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="trivia.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+<body >
+
+           
+                
+        <div id="name" class="form-group">
+                    <h1>Bienvenidos a la Trivia</h1>
+                    <h2>¡¡ 😛 Juguemos AHORA 😛 !!!</h2>
+                    <div class="box">
+                    <h3>¿Cual es tu nombre?</h3>
+                    </div>
+                
+                <input id="name1" type="text" name="nombre" class="nombre" placeholder="Nombre">
+                <button id="data1" class="next"><i class="fas fa-angle-double-right"></i></button>
+            
+            </div>
+
+            <div class="mi" id="mi">
+              <h1 id="usuario"></h1>
+              <div class="hol">
+              <h2>¿Que esperas? Esta es tu oportunidad de RESPONDER a las preguntas de la TRIVIA</h2>
+              
+              <button class="boton1" id="element1">CUESTIONARIO 1 - CULTURA GENERAL</button>
+              <button class="boton2" id="element2">CUESTIONARIO 2 - ENTRETENIMIENTO</button>
+              <button onclick="limpiar();"class="boton3" id="element3"><i class="fas fa-sync-alt"></i></button>
+            </div>
+              <section>
+                    <div class="resultado" id="temaPrincipal" style="display:none">
+                      <h3>RESULTADOS</h3>
+                      <div id="respuestasCorrectas" class="marcador">
+                        
+                      </div>
+                      <div id="respuestasIncorrectas"  class="marcador">
+                        
+                      </div>
+                    </div>
+              </section>
+              <!--<a href="cuestionario1.html" class="boton1">CUESTIONARIO 1 - CULTURA GENERAL</a>
+              <a href="cuestionario2.html" class="boton1">CUESTIONARIO 2 - CULTURA GENERAL</a>
+              </div>-->
+            </div>
+            <EMBED SRC="music.mp3" HIDDEN="true">
+            <script src="trivia.js"></script>
+</body>
+</html>

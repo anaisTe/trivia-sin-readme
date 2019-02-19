@@ -1,0 +1,103 @@
+body{
+    background-image:url('./image/Trivial Pursuit.jpg');
+   
+  }
+  h1{
+    text-align:center;
+    text-transform:uppercase;
+    color:darkblue;
+    font-family:kosuka;
+    margin: -8px;
+    padding: 10px;
+  }
+  h2{
+    text-align:center;
+    font-size: 20px;
+    font-family:inherit;
+  }
+  .box{
+    display: block;
+  }
+  h3{
+    text-align: center;
+  }
+  .form-group{
+    padding: 10px;
+    border-radius: 50px;
+    border: 0px;
+    text-align: center;
+    margin-top: 201px;
+    margin-left: 420px;
+    background-color: white;
+    width: 396px;
+  }
+  .resultado{
+    padding: 10px;
+    border-radius: 50px;
+    border: 0px;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 420px;
+    background-color: white;
+    width: 396px;
+  }
+  .next{
+    padding: 8px;
+    border-radius: 15px;
+    border: 0px;
+    cursor: pointer;
+  }
+  .nombre{
+    padding: 8px;
+    border: 1px solid gray;
+  }
+  .caja{
+    padding: 36px;
+    width: 499px;
+    border-radius: 50px;
+    background-color: white;
+    margin-top: 157px;
+    margin-left: 388px;
+  }
+
+  .franja{
+    padding: 10px;
+    background-color: black;
+  }
+  .fas fa-user{
+    color:white;
+  }
+  .mi{
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    display: none;
+  }
+  .boton1, .boton2, .boton3{
+    padding: 15px;
+    text-decoration: none;
+    background-color: grey;
+    color: white;
+  }
+  .btn{
+    color: #eee;
+    padding: 5px;
+    background-color: black;
+  }
+  
+  .parrafo1{
+    font-size: 25px;
+    color: black;
+  }
+  .pregunta1{
+    font-size: 18px;
+    color: black;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .firstA, .firstB, .firstC{
+    display: inherit;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
